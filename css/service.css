@@ -1,0 +1,287 @@
+/* 介绍区域 */
+.intro{
+    text-align: center;
+    margin-top: 50px;
+}
+.titlebar a{
+    padding: 0 10px;
+}
+.intro h3{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.intro-data{
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 40px;
+    background-color: rgb(28, 20, 15);
+    border-radius: 10px;
+}
+.intro-data ul{
+    display: flex;
+    justify-content: center;
+}
+.intro-data ul li{
+    width: 280px;
+    height: 120px;
+    padding-left: 55px;
+    padding-top: 38px;
+}
+.intro-data ul li .iconattr{
+    float: left;
+    font-size: 22px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffebeb;
+    line-height: 40px;
+}
+.intro-data ul li:nth-child(2){
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+.intro-data ul li .data{
+    float: left;
+    margin-left: 40px;
+    margin-top: -10px;
+}
+.intro-data ul li .data p {
+    font-size: 20px;
+    font-weight: 700;
+}
+.intro-data ul li .data span{
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+}
+
+/* 推荐游戏区域 */
+.recommend{
+    margin-top: 60px;
+    padding: 0 60px;
+}
+.recommend-left{
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+.recommend-left span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 75px;
+}
+.recommend-right{
+    float: left;
+    margin-left: 50px;
+}
+.recommend-right h3 {
+    font-size: 20px;
+    word-spacing: 5px;
+    line-height: 40px;
+}
+.recommend-right p {
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.recommend-right ul{
+    padding-left: 40px;
+}
+.recommend-right li{
+    position: relative;
+    font-size: 14px;
+    margin: 18px 0;
+}
+.recommend-right li span{
+    position: absolute;
+    left: -35px;
+    top: -4px;
+    padding: 4px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #2fab73;
+}
+
+/* 游戏服务2区域 */
+.service2{
+    margin-top: 80px;
+    padding: 0 60px;
+}
+.service2-left{
+    float: left;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.service2-left h3{
+    font-size: 20px;
+}
+.service2-left p{
+    margin: 30px 0;
+    font-size: 14px;
+    word-spacing: 8px;
+    line-height: 20px;
+}
+.service2-right{
+    float: right;
+}
+.service2-right img{
+    width: 400px;
+    height: 390px;
+}
+.servicemore {
+    display: block;
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.servicemore:hover{
+    border-radius: 50px;
+    transform: translateY(-5px);
+}
+
+/* 游戏服务区域3 */
+.service3{
+    margin-top: 80px;
+    padding: 0 60px;
+}
+.service3-left{
+    float: left;
+}
+.service3-left img {
+    width: 400px;
+    height: 390px;
+}
+.service3-right{
+    float: left;
+    padding-top: 20px;
+    margin-left: 80px;
+}
+.service3-right h3{
+    font-size: 20px;
+}
+.service3-right p{
+    margin: 30px 0;
+    font-size: 14px;
+    word-spacing: 8px;
+    line-height: 20px;
+}
+
+/* customer 部分 */
+.customer-section{
+    width: 100%;
+    background-color: rgb(28, 20, 15);
+    padding-bottom: 60px;
+}
+.customer{
+    padding-top: 60px;
+    margin-top: 80px;
+    text-align: center;
+}
+.customer h3{
+    font-size: 20px;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+.customer>p{
+    margin-top: 30px;
+    line-height: 20px;
+}
+.slideShow{
+    position: relative;
+    width: 1200px;
+    overflow: hidden;
+}
+.slide-swiper{
+    position: relative;
+    height: 280px;
+    width: 400%;
+}
+.slideShow ul{
+    float: left;
+}
+.slideShow ul li{
+    float: left;
+    width: 360px;
+    height: 200px;
+    margin: 40px 20px;
+    padding-left: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.user-hd{
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-hd .attr{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.user-hd .name{
+    margin-left: -80px;
+}
+.user-hd .name p{
+    font-size: 14px;
+    font-weight: 700;
+}
+.level{
+    margin-right: 40px;
+}
+.level span{
+    font-size: 14px;
+    margin-right: 2px;
+}
+.user-bd{
+    text-align: left;
+    line-height: 20px;
+    word-spacing: 8px;
+}
+.slideShow ol{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.slideShow ol li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+}
+.slideShow ol .current{
+    width: 25px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #e87d0e;
+}
+.slideButton{
+    position: absolute;
+    right: 180px;
+    bottom: 10px;
+}
+.slideButton i{
+    display: block;
+    float: left;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #e87d0e;
+    border-radius: 50%;
+    color: #e87d0e;
+    margin: 0 8px;
+}
+.slideButton i:hover{
+    background-color: #e87d0e;
+    color: #fff;
+}
